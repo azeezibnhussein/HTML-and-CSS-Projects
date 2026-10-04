@@ -12,14 +12,22 @@
 		<header>
 			<div class="logo">
 				<img src="Images/Blue's_Bakery_logo.png" alt="Comapany logo">
-			</div>		
+			</div>	
+			<nav>
+				<ul class="nav_links">
+					<a href="#register"><li class="list_items">Register</li></a>
+					<a href="#video"><li class="list_items">Video</li></a>
+				</ul>
+			</nav>
 		</header>
 
 		<main>
 			<div class="main_section">
 				<div class="intro_statement">
 					<h2>Blue's Bakery Product List</h2>
-					<p>Hi there! Thank you for supporting my micro bakery! Here are a list of yummy delights you can look forward to!</p>
+					<p>Hi there! Thank you for supporting my micro bakery! Please register below to receive more news and updates about our products.<br> 
+					In the meantime, here is a list of yummy delights you can look forward to!
+					</p>
 				</div>
 				<div class="products_catalogue">
 					<div>
@@ -52,16 +60,33 @@
 								<p>A rich combination of salted caramel sauce, banana and cinnamon to give the most mouthwatering cinnamon rolls you’ll ever have. It sounds like a lot on going on here, and it is! This cinnamon roll is the DRAMA. <br>£22.00</p>
 							</div>
 						</div>
-						<article>
+						<aside>
 							<div class="video_container">
-							<video width="480" height="300" controls>
+							<video id="video" width="480" height="300" controls>
 								<source src="Images/Bakery_video.mp4" type="video/mp4">
 							</video>
 							</div>
-						</article>
+						</aside>
 					</div>
 				</div>
 			</div>
+
+			<div class="form_container">
+				<form id="register">
+					<div class="input_fields">
+						First Name <input type="text" name="First_Name">
+					</div>
+					<div class="input_fields">
+						Last Name <input type="text" name="Last_Name">
+					</div>
+					<div class="input_fields">
+						Email <input type="email" name="Email">
+					</div>
+					<div class="button_container">
+						<button>Subscribe</button>
+					</div>
+				</form>
+			</div>				
 		</main>
 
 		<footer>
