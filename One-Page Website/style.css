@@ -120,12 +120,12 @@ aside {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 2em 0 2em 0;
+	margin: 2em 0 0 0;
 	background-color: #aedbfd;
 	width: 60%;
 }
 
-.video_container video {
+.video_container iframe {
 	background-color: #def8f8;
 	border-radius: 2em;
 }
